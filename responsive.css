@@ -1,0 +1,141 @@
+@media (max-width:1150px) {
+    .price{
+        right: 46px;
+    }
+    .owner{
+        right: 320px;
+    }
+}
+
+@media (max-width:970px) {
+    .price{
+        display: none;
+    }
+    .owner{
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    .second{
+        flex-direction: column-reverse;
+    }
+    .my-photo{
+        margin: 0 auto;
+        height: 423px;
+    }
+    .second-text{
+        width: 100%;
+    }
+    .second{
+        padding: 10px;
+    }
+    .second-myphotos {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width:600px){
+     #btns{
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        width: 30px;
+     }
+
+     .btttn{
+        display: none;
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        width: 30px;
+        z-index: 999999;
+    }
+
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .owner{
+        bottom: -259px;
+        right: 232px;
+    }
+
+    .head{
+        padding: 15px;
+    }
+
+    .main-text button{
+        display: block;
+    }
+
+    .second-myphotos {
+        height: 450px;
+    }
+    .hero-text h2 {
+        font-size: 50px;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .price{
+        display: flex;
+        right: -36px;
+    }
+    .owner{
+        display: flex;
+    }
+
+    .main-text{
+        display: none;
+    }
+    
+     .main-text ul {
+          background: rgb(0, 0, 0);
+          flex-direction: column;
+          /* position: absolute; */
+           left: 0;
+          width: 100%;
+          height: 100vh;
+          top: 0;
+          padding-top: 35px;
+          position: fixed;
+          
+    }
+
+    .head button{
+        display: block;
+    }
+
+    
+
+    .react {
+        right: -6px;
+        max-width: 100px;
+        padding: 0;
+    }
+    .second-text h1{
+        font-size: 35px;
+    }
+    .bootstrap {
+        max-width: 100px;
+        left: 5px;
+    }
+    .javascript{
+        max-width: 100px;
+    } 
+}
+
+@media (max-width:420px){
+    .price{
+        display: none;
+    }
+    .owner{
+        display: none;
+    }
+}
