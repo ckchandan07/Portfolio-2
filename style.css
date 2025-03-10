@@ -324,6 +324,12 @@ list-style: none;
     padding: 2%;
 }
 
+.contact-form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 input {
     width: 100%;
     padding: 10px;
