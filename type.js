@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     var typed = new Typed(".arlo_tm_animation_text_word", {
-        strings: ["Web Developer", "Graphic Designe", "Designer"],
+        strings: ["Web Developer", "Graphic Designer", "Designer"],
         typeSpeed: 50,
         backSpeed: 25,
         loop: true,
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
     var typed = new Typed(".arlo_tm_animation_text_words", {
-        strings: ["Web Developer", "Graphic Designe", "Designer"],
+        strings: ["Web Developer", "Graphic Designer", "Designer"],
         typeSpeed: 50,
         backSpeed: 25,
         loop: true,
